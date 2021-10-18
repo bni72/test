@@ -1,0 +1,30 @@
+    1  ssh-keygen -t rsa -b 2048
+    2  clear
+    3  git@github.com:bni72/test_20211019.git
+    4  git clone git@github.com:bni72/test_20211019.git
+    5  pwd
+    6  cd .ssh
+    7  ls
+    8  vi id_rsa.pub
+    9  cd ..
+   10  git clone git@github.com:bni72/test_20211019.git
+   11  ls -silah
+   12  cd test_20211019/
+   13  history > history_20211019.txt
+   14  git status
+   15  git add *
+   16  git commit -m 'history_20211019'
+   17  git status
+   18  git config --global user.email "nick@gmail.com"
+   19  git config --global user.name "my_name"
+   20  git config --global -l
+   21  git commit -m 'history_20211019'
+   22  git push
+   23  clear
+   24  git log
+   25  cd ..
+   26  git clone git@github.com:bni72/test_20211019.git
+   27  cd test_20211019/
+   28  git status
+   29  git log
+   30  history > history_20211019-2.txt
