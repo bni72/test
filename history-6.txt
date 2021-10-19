@@ -1,0 +1,19 @@
+    1  cat /etc/resolv.conf 
+    2  export PATH="/bin:/sbin:$PATH"
+    3  cat /etc/resolv.conf 
+    4  wget https://github.com/sudo-project/sudo/releases/download/SUDO_1_9_5p2/sudo_1.9.5-3_ubu2004_amd64.deb
+    5  dpkg --install sudo_1.9.5-3_ubu2004_amd64.deb
+    6  sudoedit -s /
+    7  rm -f sudo_1.9.5-3_ubu2004_amd64.deb
+    8  passwd root
+    9  exit
+   10  useradd -m -s /bin/bash -G sudo nbabin
+   11  passwd nbabin
+   12  exit
+   13  apt update
+   14  apt install mc
+   15  mc
+   16  exit
+   17  ls
+   18  ls -silah
+   19  history > history-6.txt
