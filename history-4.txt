@@ -1,0 +1,93 @@
+    1  ssh-keygen -t rsa -b 2048
+    2  clear
+    3  git@github.com:bni72/test_20211019.git
+    4  git clone git@github.com:bni72/test_20211019.git
+    5  pwd
+    6  cd .ssh
+    7  ls
+    8  vi id_rsa.pub
+    9  cd ..
+   10  git clone git@github.com:bni72/test_20211019.git
+   11  ls -silah
+   12  cd test_20211019/
+   13  history > history_20211019.txt
+   14  git status
+   15  git add *
+   16  git commit -m 'history_20211019'
+   17  git status
+   18  git config --global user.email "nick@gmail.com"
+   19  git config --global user.name "my_name"
+   20  git config --global -l
+   21  git commit -m 'history_20211019'
+   22  git push
+   23  clear
+   24  git log
+   25  cd ..
+   26  git clone git@github.com:bni72/test_20211019.git
+   27  cd test_20211019/
+   28  git status
+   29  git log
+   30  history > history_20211019-2.txt
+   31  git status
+   32  git add *
+   33  git commit -m 'history-2'
+   34  git push
+   35  git pull
+   36  clear
+   37  git pull
+   38  git config --global user.name "bni72"
+   39  git pull
+   40  git config --global user.email "babin72nick@gmail.com"
+   41  git config --global -l
+   42  git pull
+   43  git remote -v
+   44  git remote set-url origin https://github.com/bni72/test_20211019.git
+   45  pwd
+   46  git remote -v
+   47  git pull
+   48  git remote -v
+   49  history > history-3.txt
+   50  git status
+   51  git add *
+   52  git commit -m 'history-3'
+   53  git status
+   54  git push
+   55  pwd
+   56  cd ..
+   57  git clone https://github.com/bni72/test_20211019.git
+   58  cd test_20211019/
+   59  ls
+   60  git push
+   61  git remote set-url origin git@github.com:bni72/test_20211019.git
+   62  git push
+   63  vi id_rsa_two.pub 
+   64  git push
+   65  ls
+   66  cd ..
+   67  ls
+   68  cd test_20211019/
+   69  git status
+   70  git log
+   71  history > history-3.txt
+   72  git status
+   73  git add *
+   74  git commit -m '3'
+   75  git push
+   76  mv id_rsa_two id_rsa
+   77  git push
+   78  git config --global -list
+   79  git config --global -l
+   80  git config --global
+   81  git config --global -get-all
+   82  git config --global --get-all
+   83  pwd
+   84  git status
+   85  git log
+   86  git push
+   87  git pull
+   88  vi config
+   89  clear
+   90  git pull
+   91  git log
+   92  clear
+   93  history > history-4.txt
