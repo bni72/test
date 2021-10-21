@@ -1,0 +1,16 @@
+  776  git push
+  777  git push
+  778  history > history-8.txt
+  779  git add *
+  780  git commit -m 'history-8'
+  781  git push
+  782  git remote -v
+  783  exit
+  784  cd ~/Downloads/m.babin/gitlab
+  785  cd test_20211019
+  786  git status
+  787  git remote -v
+  788  git pull
+  789  git remote set-url origin git@github.com-test_20211019:bni72/test.git
+  790  git remote -v
+  791  git pull
