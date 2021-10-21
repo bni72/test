@@ -1,0 +1,16 @@
+  730  cd ~/.ssh
+  731  mv config config_default
+  732  cd ~/Downloads/m.babin/gitlab/test_20211019
+  733  git push
+  734  cd ~/.ssh
+  735  ssh-keygen -t rsa
+  736  ls -silah
+  737  cat id_rsa_test.pub
+  738  cd ~/Downloads/m.babin/gitlab/test_20211019
+  739  cd ~/Downloads/m.babin/gitlab/test_20211019
+  740  cd ~/.ssh
+  741  ls -silah
+  742  cp config_default config
+  743  cd ~/Downloads/m.babin/gitlab/test_20211019
+  744  pwd
+  745  git status
