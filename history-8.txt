@@ -1,0 +1,16 @@
+  762  ls -silah
+  763  cd ~/Downloads/m.babin/gitlab/test_20211019
+  764  cd ~/Downloads/m.babin/gitlab
+  765  ls
+  766  git clone git@github.com:bni72/test_20211019.git
+  767  git clone git@github.com-test_20211019:bni72/test_20211019.git
+  768  cd test_20211019
+  769  ls -silah
+  770  git remote
+  771  git remote -v
+  772  history > history-7.txt
+  773  git add *
+  774  git commit -m 'history-7'
+  775  git pull
+  776  git push
+  777  git push
